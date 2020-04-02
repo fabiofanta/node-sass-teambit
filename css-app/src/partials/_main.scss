@@ -16,15 +16,17 @@
 
 		a {
 			padding:2px 10px;
+
+		}
+
+		&-image {
+			@extend div[class^='jb'];
+			float: right;
+		}
+
+		&-image {
+			@extend div[class^='jb'];
+			float: left;
 		}
 	}
-
-	.jb-image {
-		float: right;
-	}
-
-	.jb-claim {
-		float: left;
-	}
-
 }
