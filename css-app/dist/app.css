@@ -25,6 +25,18 @@
   background-color: #ffe7d2;
 }
 
+.button {
+  border: 1px solid lightgray;
+  border-color: #2e4691;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* HEADER */
 
 .hd-container {
@@ -53,8 +65,8 @@
 .hd-container nav ul li {
   float: left;
   height: 35px;
+  line-height: 2;
   padding: 0 10px;
-  line-height: 1.6;
 }
 
 /* MAIN */
