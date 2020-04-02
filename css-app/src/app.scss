@@ -1,3 +1,10 @@
-body {
-	color: white;
-}
+@import 'partials/_variables';
+/* RESET */
+@import 'partials/_reset';
+@import 'partials/_common';
+/* HEADER */
+@import "partials/header";
+/* MAIN */
+@import "partials/main";
+/* FOOTER */
+@import "partials/footer";

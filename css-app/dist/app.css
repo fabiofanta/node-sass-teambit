@@ -1,4 +1,30 @@
-body {
-  color: white;
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.c-container {
+  max-width: 1150px;
+}
+
+.container {
+  background-color: white;
+}
+
+.container:nth-child(even) {
+  background-color: #ffe7d2;
+}
+
+/* HEADER */
+
+.hd-container {
+  background-color: white;
+}
+
+/* MAIN */
+
+/* FOOTER */
 
