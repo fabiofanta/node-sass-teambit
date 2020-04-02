@@ -6,8 +6,15 @@
   box-sizing: border-box;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .c-container {
   max-width: 1150px;
+  margin: auto;
 }
 
 .container {
@@ -22,6 +29,23 @@
 
 .hd-container {
   background-color: white;
+}
+
+.hd-container .hd-logo {
+  background-image: url("https://teambit.io/wp-content/themes/teambeat/img/logo.svg");
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 35px;
+  float: left;
+}
+
+.hd-container nav ul {
+  list-style-type: none;
+  float: right;
+}
+
+.hd-container nav ul li {
+  float: left;
 }
 
 /* MAIN */

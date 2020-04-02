@@ -1,11 +1,18 @@
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .c-container {
 	max-width: 1150px;
+	margin: auto;
 }
 
 .container {
 	background-color: $bgcolor_1;
 	&:nth-child(even) {
 		background-color: #ffe7d2;
-		
+
 	}
 }
