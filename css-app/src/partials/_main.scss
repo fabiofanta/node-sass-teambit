@@ -57,8 +57,8 @@
 
 		.card {
 			display: inline-block;
-			height: 300px;
-			width: 260px;
+			height: $card_height;
+			width: $card_width;
 			padding: 0 20px;
 
 			img {
@@ -66,6 +66,57 @@
 				height: 50%;
 				object-fit: contain;
 			}
+		}
+	}
+
+	&-teambit {
+		@extend .engage-box;
+		p:last-child {
+			padding-top: 50px;
+		}
+	}
+}
+
+.slide-container {
+
+	[class^='slide'] {
+		width: 100%;
+		padding: 50px 0;
+	}
+
+	.image,.description {
+		width: 50%;
+		float: right;
+		line-height: 1.5;
+
+		.pct,.dsc {
+			max-width: 768px;
+		}
+
+		.pct {
+			max-height: 400px;
+
+		}
+
+		.dsc {
+			float: right;
+			width: 500px;
+		}
+
+		img {
+			max-height: 270px;
+			display: block;
+		}
+	}
+
+	:nth-child(even) .image,:nth-child(even) .description{
+		float: left;
+		.dsc {
+			float: left;
+		}
+
+		.pct {
+			float: right;
 		}
 	}
 }
