@@ -1,0 +1,30 @@
+.jumbotron {
+	margin: 100px auto;
+
+	div[class^='jb'] {
+		width: 50%;
+		line-height: 1.25;
+
+		img {
+			width: 100%;
+		}
+
+		h1 {
+			font-size: 50px;
+			font-weight: bold;
+		}
+
+		a {
+			padding:2px 10px;
+		}
+	}
+
+	.jb-image {
+		float: right;
+	}
+
+	.jb-claim {
+		float: left;
+	}
+
+}
