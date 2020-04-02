@@ -40,7 +40,9 @@
 }
 
 .hd-container nav {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgray;
 }
 
 .hd-container nav ul {
@@ -52,6 +54,7 @@
   float: left;
   height: 35px;
   padding: 0 10px;
+  line-height: 1.6;
 }
 
 /* MAIN */

@@ -9,7 +9,9 @@
 
 	}
 	nav {
-		padding: 20px 0;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		border-bottom: $border_default;
 		ul {
 			list-style-type: none;
 			float: right;
@@ -17,6 +19,7 @@
 				float: left;
 				height: 35px;
 				padding: 0 10px;
+				line-height: 1.6;
 			}
 		}
 	}
