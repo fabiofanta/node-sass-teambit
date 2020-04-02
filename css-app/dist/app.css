@@ -148,7 +148,7 @@ a {
 .engage-box .card {
   display: inline-block;
   height: 250px;
-  width: 200px;
+  width: 220px;
 }
 
 .engage-box .card img {
@@ -156,6 +156,10 @@ a {
   height: 50%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.engage-box h2 {
+  padding: 50px 0;
 }
 
 /* FOOTER */
