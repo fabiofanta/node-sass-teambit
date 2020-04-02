@@ -52,6 +52,7 @@ a {
 }
 
 .hd-container nav {
+  padding: 0 25px;
   padding-top: 20px;
   padding-bottom: 15px;
   border-bottom: 1px solid lightgray;
