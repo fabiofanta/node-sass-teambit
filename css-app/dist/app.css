@@ -81,22 +81,11 @@ a {
   margin: 100px auto;
 }
 
-.jumbotron div[class^=jb] {
+.jumbotron .jb,
+.jumbotron .jb-claim,
+.jumbotron .jb-image {
   width: 50%;
   line-height: 1.25;
-}
-
-.jumbotron div[class^=jb] img {
-  width: 100%;
-}
-
-.jumbotron div[class^=jb] h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.jumbotron div[class^=jb] a {
-  padding: 2px 10px;
 }
 
 .jumbotron .jb-image {
@@ -105,6 +94,42 @@ a {
 
 .jumbotron .jb-claim {
   float: left;
+}
+
+.jumbotron .jb img,
+.jumbotron .jb-image img,
+.jumbotron .jb-claim img {
+  width: 100%;
+}
+
+.jumbotron .jb h1,
+.jumbotron .jb-image h1,
+.jumbotron .jb-claim h1,
+.jumbotron .jb p,
+.jumbotron .jb-image p,
+.jumbotron .jb-claim p {
+  margin-bottom: 30px;
+}
+
+.jumbotron .jb h1,
+.jumbotron .jb-image h1,
+.jumbotron .jb-claim h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.jumbotron .jb .cta-signup,
+.jumbotron .jb-image .cta-signup,
+.jumbotron .jb-claim .cta-signup {
+  margin-bottom: 20px;
+}
+
+.jumbotron .jb a,
+.jumbotron .jb-image a,
+.jumbotron .jb-claim a {
+  padding: 2px 10px;
+  background-color: #30488f;
+  color: white;
 }
 
 /* FOOTER */

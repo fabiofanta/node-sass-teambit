@@ -1,12 +1,26 @@
 .jumbotron {
 	margin: 100px auto;
 
-	div[class^='jb'] {
+	.jb {
 		width: 50%;
 		line-height: 1.25;
 
+		&-image {
+			@extend .jb;
+			float: right;
+		}
+
+		&-claim {
+			@extend .jb;
+			float: left;
+		}
+
 		img {
 			width: 100%;
+		}
+
+		h1,p {
+			margin-bottom: 30px;
 		}
 
 		h1 {
@@ -14,19 +28,16 @@
 			font-weight: bold;
 		}
 
+		.cta-signup {
+			margin-bottom: 20px;
+		}
+
 		a {
 			padding:2px 10px;
+			background-color: $botton_color;
+			color: $bgcolor_1;
 
 		}
 
-		&-image {
-			@extend div[class^='jb'];
-			float: right;
-		}
-
-		&-image {
-			@extend div[class^='jb'];
-			float: left;
-		}
 	}
 }
