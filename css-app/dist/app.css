@@ -39,6 +39,10 @@
   float: left;
 }
 
+.hd-container nav {
+  padding: 20px 0;
+}
+
 .hd-container nav ul {
   list-style-type: none;
   float: right;
@@ -46,6 +50,8 @@
 
 .hd-container nav ul li {
   float: left;
+  height: 35px;
+  padding: 0 10px;
 }
 
 /* MAIN */
